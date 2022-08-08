@@ -60,5 +60,15 @@ html, body{
 
 *,*::after, *::before{
 	box-sizing:border-box;
-	outline:auto;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+TC&family=Roboto&family=Rubik&display=swap'); // font : Lato
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+$green:#198754;
+$darkgray:#6C757D;
+$lightgray:#8f9193;
+$whitegray:#CED4DA;
+$black:#212529;
+$white:#F8F9FA;

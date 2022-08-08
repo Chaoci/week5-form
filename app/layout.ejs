@@ -10,34 +10,50 @@
     <link rel="stylesheet" href="./assets/style/bootstrap.css">
     <link rel="stylesheet" href="./assets/style/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/js/vendors.js" defer></script>
+    <script src="./assets/js/all.js" defer></script>
   </head>
 
   <body class="d-flex">
-    <nav class="container">
+    <nav class="w-25">
       <div class="logo">
         <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/97bc089e7543a6f7cb2a9b8dfc6b284dbde65280/week5/logo-ANSWER.svg" alt="ANSWER_LOGO">
       </div>
-
-      <ul class="nav d-flex flex-column">
-        <li class="nav-item d-flex align-items-center justify-content-start">
-          <i class="fa-solid fa-chart-column"></i><a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+      <div class="navbar">
+        <ul>
+          <a href="#dashboard">
+            <li><i class="fa-solid fa-chart-column fa-2x"></i>Dashboard</li>
+          </a>
+          <a href="#question">
+            <li><i class="fa-solid fa-comments fa-2x"></i>Question</li>
+          </a>
+          <a href="#assignment">
+            <li><i class="fa-solid fa-clipboard fa-2x"></i>Assignment</li>
+          </a>
+          <a href="#course">
+            <li><i class="fa-solid fa-circle-play fa-2x"></i>Course</li>
+          </a>
+          <a href="#admin">
+            <li><i class="fa-solid fa-user-group fa-2x"></i>Admin</li>
+          </a>
+          <a href="#settings">
+            <li><i class="fa-solid fa-gear fa-2x"></i>Settings</li>
+          </a>
+        </ul>
+      </div>
+      <div class="user">
+        <div class="user-photo">
+          <img src="" alt="">
+        </div>
+        <div class="user-info">
+          <p>name</p>
+          <p><a href="">123@gmail.com</a></p>
+        </div>
+      </div>
     </nav>
 
     <%- contents %>
 
-    <script src="./assets/js/vendors.js"></script>
-    <script src="./assets/js/all.js"></script>
   </body>
 
 </html>
