@@ -1,0 +1,49 @@
+nav{
+    background-color: $white;
+    max-width: 25%;
+    height: 100vh;
+    position: relative;
+    .logo{
+        height: 40px;
+        margin-top: 32px;
+        margin-left:32px;
+        margin-bottom: 32px;
+    }
+}
+.navbar{
+    ul{
+        width: 100%;
+    }
+    a{
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top:12px;
+        padding-bottom: 12px;
+        padding-left: 32px;
+    }
+    li{
+        width: 100%;
+        p{
+            display: block;
+            width: 85%;
+        }
+    }
+}
+.user{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 32px;
+    bottom: 32px;
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-right: 16px;
+    }
+}
