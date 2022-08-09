@@ -79,7 +79,10 @@ body {
 }
 
 nav {
+  background-color: #F8F9FA;
   max-width: 25%;
+  height: 100vh;
+  position: relative;
 }
 
 nav .logo {
@@ -97,13 +100,165 @@ nav .logo {
   width: 100%;
   font-size: 16px;
   line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
 }
 
 .navbar li {
   width: 100%;
-  padding-top: 12px;
-  padding-bottom: 12px;
+}
+
+.navbar li p {
+  display: block;
+  width: 85%;
+}
+
+.user {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
   padding-left: 32px;
+  bottom: 32px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+header h1 {
+  color: #212529;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 50px;
+  line-height: 33px;
+}
+
+header h2 {
+  color: #212529;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+header .head-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 93px;
+}
+
+header .head-icon i {
+  margin-right: 26px;
+  cursor: pointer;
+}
+
+.arrow {
+  font-weight: bold;
+  font-size: 16px;
+  height: 16px;
+  color: #198754;
+  margin-left: 10px;
+}
+
+section {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #212529;
+  line-height: 1.5;
+  cursor: pointer;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+.table-title {
+  width: 30%;
+}
+
+.table-title td {
+  border: 1px solid #6C757D;
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.table-title td .genre {
+  color: #6C757D;
+  font-size: 12px;
+  line-height: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4px;
+}
+
+.table-title td .main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212529;
+}
+
+.table-title td .main-title .writer {
+  color: #6C757D;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.table-title td:hover, .table-title td:focus {
+  background-color: #F8F9FA;
 }
 
 /*# sourceMappingURL=all.css.map */
