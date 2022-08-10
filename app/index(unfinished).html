@@ -1,0 +1,125 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="container">
+
+  <!-- write something  -->
+  <header>
+    <div class="head-title">
+      <h1>Assignment</h1>
+      <h2>All Course <span class="arrow">⌄</span></h2>
+    </div>
+    <div class="head-icon">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-bell"></i>
+    </div>
+  </header>
+  <section>
+  <details open>
+    <summary>All (<span class="amount">4</span>) <span class="arrow">⌄</span></summary>
+    <table class="table-title">
+      <tr>
+        <td>
+          <div class="genre">
+            <p>Chapter Assignment 2</p>
+            <p class="times">4 hrs ago</p>
+          </div>
+          <div class="main-title">
+            <h3>Please check this file…</h3>
+            <p class="writer">Emily Wang</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="genre">
+            <p>Chapter Assignment 1</p>
+            <p class="times">12 hrs ago</p>
+          </div>
+          <div class="main-title">
+            <h3>My Homework</h3>
+            <p class="writer">David Xu</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="genre">
+            <p>Final Assignment</p>
+            <p class="times">18 hrs ago</p>
+          </div>
+          <div class="main-title">
+            <h3>Have a problem with this…</h3>
+            <p class="writer">Tony Wei</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="genre">
+            <p>Final Assignment</p>
+            <p class="times">19 hrs ago</p>
+          </div>
+          <div class="main-title">
+            <h3>Did I do it right?</h3>
+            <p class="writer">Christina Lin</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </details>
+
+  <div class="project">
+    <div class="project-head">
+      <div class="project-title">
+        <p class="course">Chapter Assignment 2 / HTML&CSS</p>
+        <h2>Please check this file for me, thanks!</h2>
+      </div>
+      <div class="project-setting">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+    </div>
+    <div class="project-question">
+      <div class="inquirer">
+        <img src="" alt="">
+        <div class="user-info">
+          <p>Emily Wang</p>
+          <p>10:38 AM (4 hours ago)</p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  </section>
+
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
