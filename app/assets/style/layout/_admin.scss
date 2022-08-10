@@ -1,0 +1,140 @@
+.admin{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    th{
+        font-weight: bold;
+    }
+    tr{
+        border-bottom: 1px solid $lightgray;
+    }
+    td{
+        padding: 14px 0px;
+        i{
+            margin-right: 25px;
+            cursor: pointer;
+        }
+    }
+    .icon{
+        text-align: right;
+    }
+}
+.downward{
+    color:$green;
+}
+.page{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    position: absolute;
+    padding:0px 32px;
+    margin-top: 63px;
+    bottom: 32px;
+    right:12px;
+}
+
+.page-list{
+    display: flex;
+    a{
+        padding:6px 11px;
+        width: 100%;
+        border:1px solid $green;
+        &:hover{
+            background-color: $green;
+            color:$white;
+        }
+    }
+}
+.modal-header{
+    h5{
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 33px;
+    }
+    border-bottom: none;
+    line-height: 1.5;
+    padding:32px;
+}
+.modal-body{
+    padding:0px 32px;
+    h2{
+        font-size: 20px;
+        line-height: 33px;
+    }
+    label{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    input{
+        width: 100%;
+        padding:16px;
+        background-color: $white;
+        border:none;
+        margin-bottom: 16px;
+    }
+    #Password{
+        margin-bottom: 24px;
+    }
+}
+.account{
+    border-bottom: 1px solid lightgray;
+}
+
+.vertified-check{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-bottom: 18px;
+    .check{
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 16px;
+            line-height: 33px;
+            margin-left: 10px;
+        }
+    }
+    .date{
+        font-size: 14px;
+        line-height: 33px;
+    }
+}
+.vertified{
+    padding-bottom: 24px;
+    border-bottom: 1px solid lightgray;
+    h5{
+        margin-top: 24px;
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+    button{
+        width: 100%;
+        padding: 16px;
+    }
+}
+.access-level{
+    margin-bottom: 20px;
+    h5{
+        margin-top: 24px;
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+}
+.modal-footer{
+    padding:16px 32px;
+}
+.btn-cancel{
+    background-color: #fff;
+    color:#198754;
+    border:1px solid gray;
+    padding:8px 32px;
+    margin-right: 15px;
+}
+.btn-update{
+    background-color: #198754;
+    color:white;
+    border:1px solid gray;
+    padding:8px 32px;
+}

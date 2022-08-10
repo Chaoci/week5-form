@@ -1,0 +1,30 @@
+section{
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.project{
+    width: 70%;
+    margin-top: 42px;
+    border:1px solid gray;
+}
+.project-head{
+    padding: 12px 16px;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    .course{
+        color:$black;
+        font-size: 12px;
+        line-height: 2;
+        margin-bottom: 4px;
+    }
+    h2{
+        color:$black;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: bold;
+    }
+}
