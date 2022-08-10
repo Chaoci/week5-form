@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boostrap Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/bootstrap.css">
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/js/vendors.js" defer></script>
+    <script src="./assets/js/all.js" defer></script>
+  </head>
+
+  <body class="d-flex">
+    <nav class="w-25">
+      <div class="logo">
+        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/97bc089e7543a6f7cb2a9b8dfc6b284dbde65280/week5/logo-ANSWER.svg" alt="ANSWER_LOGO"></a>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="#dashboard">
+              <i class="fa-solid fa-chart-column"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li>
+            <a href="#question">
+              <i class="fa-solid fa-comments"></i><p>Question</p>
+            </a>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-clipboard"></i><p>Assignment</p>
+            </a>
+          </li>
+          <li>
+            <a href="#course">
+              <i class="fa-solid fa-circle-play"></i><p>Course</p>
+            </a>
+          </li>
+          <li>
+            <a href="admin.html">
+              <i class="fa-solid fa-user-group"></i><p>Admin</p>
+            </a>
+          </li>
+          <li>
+            <a href="#settings">
+              <i class="fa-solid fa-gear"></i><p>Settings</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="user">
+        <div class="user-photo">
+          <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" alt="user">
+        </div>
+        <div class="user-info">
+          <p>name</p>
+          <p><a href="">123@gmail.com</a></p>
+        </div>
+      </div>
+    </nav>
+
+    
+<div class="container">
+
+  <!-- write something  -->
+  <header>
+    <div class="head-title">
+      <h1>Assignment</h1>
+      <h2>All Course <span class="arrow">⌄</span></h2>
+    </div>
+    <div class="head-icon">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-bell"></i>
+    </div>
+  </header>
+  <section>
+  <details open>
+    <summary>All (<span class="amount">4</span>) <span class="arrow">⌄</span></summary>
+    <table class="table-title">
+      <tr>
+        <td>
+          <div class="genre">
+            <p>Chapter Assignment 2</p>
+            <p class="times">4 hrs ago</p>
+          </div>
+          <div class="main-title">
+            <h3>Please check this file…</h3>
+            <p class="writer">Emily Wang</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="genre">
+            <p>Chapter Assignment 1</p>
+            <p class="times">12 hrs ago</p>
+          </div>
+          <div class="main-title">
+            <h3>My Homework</h3>
+            <p class="writer">David Xu</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="genre">
+            <p>Final Assignment</p>
+            <p class="times">18 hrs ago</p>
+          </div>
+          <div class="main-title">
+            <h3>Have a problem with this…</h3>
+            <p class="writer">Tony Wei</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="genre">
+            <p>Final Assignment</p>
+            <p class="times">19 hrs ago</p>
+          </div>
+          <div class="main-title">
+            <h3>Did I do it right?</h3>
+            <p class="writer">Christina Lin</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </details>
+
+  <div class="project">
+    <div class="project-head">
+      <div class="project-title">
+        <p class="course">Chapter Assignment 2 / HTML&CSS</p>
+        <h2>Please check this file for me, thanks!</h2>
+      </div>
+      <div class="project-setting">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+    </div>
+    <div class="project-question">
+      <div class="inquirer">
+        <img src="" alt="">
+        <div class="user-info">
+          <p>Emily Wang</p>
+          <p>10:38 AM (4 hours ago)</p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  </section>
+
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
