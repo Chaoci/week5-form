@@ -329,6 +329,11 @@ section {
 
 .admin tr {
   border-bottom: 1px solid #8f9193;
+  cursor: pointer;
+}
+
+.admin tr:hover {
+  background-color: #F8F9FA;
 }
 
 .admin td {
