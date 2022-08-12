@@ -21,7 +21,53 @@ current: index
   <section>
   <details open>
     <summary>All (<span class="amount">4</span>) <span class="arrow">⌄</span></summary>
-    <table class="table-title">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                <div class="genre">
+                  <p>Chapter Assignment 2</p>
+                  <p class="times">4 hrs ago</p>
+                </div>
+                <div class="main-title">
+                  <h3>Please check this file…</h3>
+                  <p class="writer">Emily Wang</p>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+                <div class="genre">
+                  <p>Chapter Assignment 1</p>
+                  <p class="times">12 hrs ago</p>
+                </div>
+                <div class="main-title">
+                  <h3>My Homework</h3>
+                  <p class="writer">David Xu</p>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                <div class="genre">
+                  <p>Final Assignment</p>
+                  <p class="times">18 hrs ago</p>
+                </div>
+                <div class="main-title">
+                  <h3>Have a problem with this…</h3>
+                  <p class="writer">Tony Wei</p>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                <div class="genre">
+                  <p>Final Assignment</p>
+                  <p class="times">19 hrs ago</p>
+                </div>
+                <div class="main-title">
+                  <h3>Did I do it right?</h3>
+                  <p class="writer">Christina Lin</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+    <!-- <table class="table-title">
       <tr>
         <td>
           <div class="genre">
@@ -70,10 +116,43 @@ current: index
           </div>
         </td>
       </tr>
-    </table>
+    </table> -->
   </details>
-
-  <div class="project">
+  <div class="col-12 col-md-8 mt-5 pt-2">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+        <div class="card mb-3">
+          <div class="card-header">
+            <div class="project-head">
+              <div class="project-title">
+                <p class="course">Chapter Assignment 2 / HTML&CSS</p>
+                <h2>Please check this file for me, thanks!</h2>
+              </div>
+              <div class="project-setting">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-body card-height">
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <img src="..." alt="...">
+              </div>
+              <div class="flex-grow-1 ms-3">
+                This is <code class="text-success bg-light px-1 rounded-1 font-mono">div</code> content from a media component. You can replace this with any content and adjust it as needed.
+                <a href="#" class="btn btn-light border" download="HW-2-David.zip">HW-2-David.zip</a>
+              </div>
+            </div>
+          </div>
+          <div id="editor"></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...2</div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...3</div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...4</div>
+    </div>
+  
+  <!-- <div class="project">
     <div class="project-head">
       <div class="project-title">
         <p class="course">Chapter Assignment 2 / HTML&CSS</p>
@@ -93,7 +172,7 @@ current: index
       </div>
     </div>
   
-  </div>
+  </div> -->
   </section>
 
 
@@ -101,25 +180,8 @@ current: index
 
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
-</button>
+</button> -->
 </div>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
