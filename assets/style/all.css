@@ -327,6 +327,14 @@ section {
   font-weight: bold;
 }
 
+.admin .table-head {
+  cursor: auto;
+}
+
+.admin .table-head:hover {
+  background-color: #ffffff;
+}
+
 .admin tr {
   border-bottom: 1px solid #8f9193;
   cursor: pointer;
