@@ -5,6 +5,12 @@
     th{
         font-weight: bold;
     }
+    .table-head{
+        cursor: auto;
+        &:hover{
+            background-color: #ffffff;
+        }
+    }
     tr{
         border-bottom: 1px solid $lightgray;
         cursor:pointer;
