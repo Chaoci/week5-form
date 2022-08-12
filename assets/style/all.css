@@ -122,6 +122,10 @@ nav .logo {
   width: 85%;
 }
 
+.navbar li:hover {
+  border-left: 5px solid #198754;
+}
+
 .user {
   position: absolute;
   display: -webkit-box;
@@ -228,18 +232,7 @@ summary {
   margin-top: 12px;
 }
 
-.table-title {
-  width: 100%;
-}
-
-.table-title td {
-  border: 1px solid #6C757D;
-  width: 100%;
-  padding: 12px;
-  cursor: pointer;
-}
-
-.table-title td .genre {
+.genre {
   color: #6C757D;
   font-size: 12px;
   line-height: 2;
@@ -255,7 +248,7 @@ summary {
   margin-bottom: 4px;
 }
 
-.table-title td .main-title {
+.main-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -268,14 +261,18 @@ summary {
   color: #212529;
 }
 
-.table-title td .main-title .writer {
+.main-title .writer {
   color: #6C757D;
   font-size: 12px;
   line-height: 2;
 }
 
-.table-title td:hover, .table-title td:focus {
-  background-color: #F8F9FA;
+.card-height {
+  height: 40vh;
+}
+
+.list-group {
+  width: 320px;
 }
 
 section {
@@ -304,7 +301,6 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid gray;
 }
 
 .project-head .course {
@@ -396,6 +392,13 @@ section {
   padding: 0px 32px;
 }
 
+.modal-body h5 {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: bold;
+}
+
 .modal-body h2 {
   font-size: 20px;
   line-height: 33px;
@@ -472,32 +475,62 @@ section {
 
 .access-level {
   margin-bottom: 20px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid lightgray;
 }
 
-.access-level h5 {
+.custom-block {
+  padding-bottom: 24px;
+  border-bottom: 1px solid lightgray;
+}
+
+.custom-check {
   margin-top: 24px;
-  font-size: 20px;
-  line-height: 33px;
-  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.custom-check input {
+  width: 4%;
+  margin-bottom: 0;
+  padding: 0;
+  margin-right: 10px;
 }
 
 .modal-footer {
   padding: 16px 32px;
+  border-top: 0;
 }
 
 .btn-cancel {
-  background-color: #fff;
-  color: #198754;
-  border: 1px solid gray;
   padding: 8px 32px;
   margin-right: 15px;
 }
 
 .btn-update {
-  background-color: #198754;
-  color: white;
-  border: 1px solid gray;
   padding: 8px 32px;
+}
+
+.deactivate-block .alert {
+  padding: 0;
+  padding-top: 19px;
+}
+
+.deactivate-block p {
+  color: #DC3545;
+}
+
+.deactivate-block p i {
+  margin-right: 9px;
+}
+
+.deactivate-block button {
+  width: 100%;
+  padding: 16px;
+  color: #DC3545;
+  border: 1px solid #DC3545;
+  margin-bottom: 19px;
 }
 
 /*# sourceMappingURL=all.css.map */
